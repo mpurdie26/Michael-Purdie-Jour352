@@ -79,7 +79,18 @@ body {
   margin: 0px;
   padding: 0px;
   text-align: center;
+}
+
+/* targetting menu list items */
+.menu li {
   display: inline;
+}
+
+/* headshot instead of mission statement */
+img {
+  display: block;
+  margin: 30px auto;
+  width: 300px;
 }
 
 /* list under education */
