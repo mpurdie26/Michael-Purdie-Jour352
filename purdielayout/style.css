@@ -1,16 +1,27 @@
-#content {
-  margin: 0 auto;
-  width: 900px;
+/* styles for midterm exercise */
+
+/* masthead */
+header {
+  background-image: url(images/IMG_2916.jpg);
+  background-size: 100%;
+  padding: 1px;
+  margin-bottom: 20px;
 }
 
 h1 {
   text-align: center;
   color: white;
   font-size: 80px;
-  font-family: Georgia;
+  font-family: Georgia, serif;
 }
 
-header {
-  background-image: url(images/IMG_2916.jpg);
-  width: 100%;
+/* entire article */
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+/* headline */
+h2 {
+
 }
