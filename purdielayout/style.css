@@ -45,6 +45,29 @@ p {
   text-align: justify;
 }
 
+/* images */
+img {
+  margin-top: 10px;
+  width: 900px;
+}
+
+/*source for images */
+#source {
+  text-align: right;
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+}
+
+/* captions for images */
+#caption {
+  font-family: Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: lighter;
+  text-align: justify;
+  margin-bottom: 13px;
+}
+
 /* pull quote */
 blockquote {
   color: #c4542e;
@@ -58,8 +81,6 @@ h2 {
   font-size: 20px;
   font-family: Helvetica, sans-serif;
   font-weight: normal;
-  margin: 0 auto;
-
 }
 
 /* links list */
