@@ -1,9 +1,12 @@
 #content {
   margin: 0 auto;
   width: 900px;
-  color: blue;
 }
 
 h1 {
   text-align: center;
+}
+
+header {
+  
 }
