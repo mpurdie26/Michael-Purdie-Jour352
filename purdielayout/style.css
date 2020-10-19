@@ -8,11 +8,13 @@ header {
   margin-bottom: 20px;
 }
 
-h1 {
+#masthead-text {
   text-align: center;
   color: white;
   font-size: 80px;
-  font-family: Georgia, serif;
+  font-family: Tahoma, sans-serif;
+  font-weight: bold;
+  margin: 35px;
 }
 
 /* entire article */
@@ -22,6 +24,46 @@ h1 {
 }
 
 /* headline */
-h2 {
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  color: #c4542e;
+  margin-bottom: 10px;;
+}
 
+/* byline, if that wasn't already obvious */
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* article body text */
+p {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  text-align: justify;
+}
+
+/* pull quote */
+blockquote {
+  color: #c4542e;
+  font-size: 21px;
+  font-family: Helvetica, sans-serif;
+}
+
+/* graphic and links heading */
+h2 {
+  color: #c4542e;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+  margin: 0 auto;
+
+}
+
+/* links list */
+li {
+  font-family: Georgia, serif;
+  font-size: 13px;
 }
