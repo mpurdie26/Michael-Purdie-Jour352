@@ -51,15 +51,6 @@ img {
   width: 900px;
 }
 
-/*source for images */
-#source {
-  text-align: right;
-  font-family: Helvetica, sans-serif;
-  font-size: 13px;
-  font-weight: lighter;
-  font-style: italic;
-}
-
 /* captions for images */
 #caption {
   font-family: Helvetica, sans-serif;
