@@ -25,23 +25,23 @@ header {
 
 /* headline */
 h1 {
-  font-family: Helvetica, sans-serif;
+  font-family: Georgia, serif;
   font-size: 30px;
   color: #d83e56;
   margin-bottom: 10px;;
 }
 
-/* byline, if that wasn't already obvious */
+/* byline */
 #byline {
   font-family: Helvetica, sans-serif;
   font-size: 14px;
   font-style: italic;
 }
 
-/* article body text */
+/* article text */
 p {
-  font-family: Georgia, serif;
-  font-size: 13px;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
   text-align: justify;
 }
 
@@ -54,29 +54,30 @@ img {
 /* captions for images */
 #caption {
   font-family: Helvetica, sans-serif;
-  font-size: 11px;
+  font-size: 10px;
   font-weight: lighter;
   text-align: justify;
   margin-bottom: 13px;
 }
 
+/* subheads */
+h2 {
+  color: #d83e56;
+  font-size: 20px;
+  font-family: Georgia, serif;
+  font-weight: normal;
+}
+
 /* pull quote */
 blockquote {
   color: #d83e56;
-  font-size: 20px;
-  font-family: Helvetica, sans-serif;
+  font-size: 16px;
+  font-family: Helvetica, serif;
   margin: 15px 50px 15px 0px;
   padding-left: 15px;
   border-left: 2px solid #d83e56;
 }
 
-/* graphic and links heading */
-h2 {
-  color: #d83e56;
-  font-size: 20px;
-  font-family: Helvetica, sans-serif;
-  font-weight: normal;
-}
 
 /* links list */
 li {
