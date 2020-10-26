@@ -27,7 +27,7 @@ header {
 h1 {
   font-family: Helvetica, sans-serif;
   font-size: 30px;
-  color: #c4542e;
+  color: #d83e56;
   margin-bottom: 10px;;
 }
 
@@ -62,17 +62,17 @@ img {
 
 /* pull quote */
 blockquote {
-  color: #c4542e;
+  color: #d83e56;
   font-size: 20px;
   font-family: Helvetica, sans-serif;
   margin: 15px 50px 15px 0px;
   padding-left: 15px;
-  border-left: 2px solid #c4542e;
+  border-left: 2px solid #d83e56;
 }
 
 /* graphic and links heading */
 h2 {
-  color: #c4542e;
+  color: #d83e56;
   font-size: 20px;
   font-family: Helvetica, sans-serif;
   font-weight: normal;
