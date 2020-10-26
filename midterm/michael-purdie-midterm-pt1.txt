@@ -43,34 +43,31 @@ in the <body> section
 
 7.  In the space below, put one DIV tag with an ID of apples and a class of fruit.
 
-
-
+<div id="apples" class="fruit"></div>
 
 
 8.  In the space below, write the correct CSS code to target a DIV with a class of fruit.  Make the color of the text black (#000000).
 
-
-
-
+.fruit {
+  color: #000000
+}
 
 
 9.  What tag would we use to include an image on an HTML page? Just give me the name of the tag, you don't have to write out all the code.
 
-
+<img>
 
 
 10.  Why do we use media queries?
 
-
+Media queries are used in the code so that the webpage can be rendered to the proper dimensions on different formats, such as phone or laptop.
 
 
 11. What is the main difference between a serif and a sans-serif font?
 
-
+A serif font has "feet" and a sans-serif does not.
 
 
 12. Which of the following is a hexadecimal code?
+
 #FFCC33
-123,543,242
-101010101
--213
