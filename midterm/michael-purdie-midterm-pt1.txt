@@ -3,36 +3,42 @@
 <a href="www.google.com" target="_blank">Google</a> is the best search engine in the world.
 
 
-
-
 2.  Describe the purpose of a DIV tag.
 
-
+ A <div> tag is used to separate different sections of code that will have the same CSS style rules applied all the code within the <div> tag. An ID or class can be assigned to a <div>, in which case it can by called upon in the CSS file to apply rules to that specific tag. Also, I <div> tag can make your code more readable.
 
 
 3.  Write out the basic structure of an HTML page, putting the basic tags in the correct position.  (Note: you don't need to connect it to a stylesheet or include DIV tags or anything like that).
 
+<!--DOCTYPE html-->
+<html lang="en">
 
+  <head>
+    <title><!--title of page, which is seen on the tab--></title>
+  </head>
 
+  <body>
+      <!--this is where text goes, such as <h1> or <p> tags-->
+  </body>
+
+</html>
 
 
 4.  There are two main "areas" or "sections" in the basic structure of an HTML page. In which area would you put a link to a stylesheet?
 
-
-
+in the <head> section
 
 
 5.  In which main "area" or "section" of an HTML page would you put text, images or DIV tags?
 
-
-
+in the <body> section
 
 
 6.  In the space below, put one DIV tag with a class of graphicbox and a second DIV tag with an ID of name.
 
+<div class="graphicbox"></div>
 
-
-
+<div id="name"></div>
 
 
 7.  In the space below, put one DIV tag with an ID of apples and a class of fruit.
