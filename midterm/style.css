@@ -1,0 +1,94 @@
+/* styles for midterm exercise */
+
+/* masthead */
+header {
+  background-image: url(images/IMG_0458.jpg);
+  background-size: 100%;
+  padding: 1px;
+  margin-bottom: 20px;
+}
+
+#masthead-text {
+  text-align: center;
+  color: white;
+  font-size: 80px;
+  font-family: Tahoma, sans-serif;
+  font-weight: bold;
+  margin: 35px;
+}
+
+/* entire article */
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+/* headline */
+h1 {
+  font-family: Helvetica, sans-serif;
+  font-size: 30px;
+  color: #c4542e;
+  margin-bottom: 10px;;
+}
+
+/* byline, if that wasn't already obvious */
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+
+/* article body text */
+p {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  text-align: justify;
+}
+
+/* images */
+img {
+  margin-top: 10px;
+  width: 900px;
+}
+
+/*source for images */
+#source {
+  text-align: right;
+  font-family: Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: lighter;
+  font-style: italic;
+}
+
+/* captions for images */
+#caption {
+  font-family: Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: lighter;
+  text-align: justify;
+  margin-bottom: 13px;
+}
+
+/* pull quote */
+blockquote {
+  color: #c4542e;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  margin: 15px 50px 15px 0px;
+  padding-left: 15px;
+  border-left: 2px solid #c4542e;
+}
+
+/* graphic and links heading */
+h2 {
+  color: #c4542e;
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+/* links list */
+li {
+  font-family: Georgia, serif;
+  font-size: 13px;
+}
