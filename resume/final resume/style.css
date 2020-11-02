@@ -1,4 +1,10 @@
-/* styles for midterm exercise */
+/* styles for resume project */
+
+/* navbar */
+nav {
+  background-color: #419BB8;
+  font-family: "Lucida Grande", Arial, sans-serif;
+}
 
 /* masthead elements */
 header {
@@ -44,6 +50,58 @@ header {
   bottom: 200px;
 }
 
+/* button */
+.btn-primary {
+  color: white;
+  background-color: #419BB8 !important;
+  font-family: "Lucida Grande", Arial, sans-serif;
+  border: 0;
+  display: inline-block;
+  position: relative;
+  left: 46%;
+  bottom: 130;
+}
+
+/* icons */
+.icon {
+  color: white;
+  background-color: #E58E9F;
+  border-radius: 50%;
+  width: 70px;
+  height: 70px;
+  padding: 17px;
+  text-align: center;
+  font-size: 2.2em;
+}
+
+/* linkedin icon location */
+#linkedin {
+  position: relative;
+  bottom: 315;
+  left: 200;
+}
+
+/* phone icon location */
+#phone {
+  position: relative;
+  bottom: 315;
+  left: 250;
+}
+
+/* github icon location */
+#github {
+  position: relative;
+  bottom: 315;
+  left: 650;
+}
+
+/* twitter icon location */
+#twitter {
+  position: relative;
+  bottom: 315;
+  left: 700;
+}
+
 /* body text container to raise elements up */
 #content {
   width: 100%;
@@ -60,7 +118,7 @@ header {
 /* sections */
 .sectionheader {
   font-family: Courier, Monaco, monospace;
-  font-size: 1.75em;
+  font-size: 2em;
   text-transform: uppercase;
   color: #E58E9F;
   text-align: center;
@@ -80,7 +138,7 @@ header {
   text-align: center;
   font-weight: 600;
   font-size: 1.5em;
-  margin: 5px 0px 10px 0px;
+  margin: 10px 0px 0px 0px;
 }
 
 /* organization */
@@ -114,14 +172,24 @@ header {
   margin: 0px 0px 40px 0px;
 }
 
-/*education and skills lists */
+/* education list */
+.container {
+  font-family: "Lucida Grande", Arial, sans-serif;
+  font-size: 1em;
+  text-align: center;
+  color: #419BB8;
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+/* skills lists */
 #list {
   font-family: "Lucida Grande", Arial, sans-serif;
   font-size: 1em;
   text-align: center;
   color: #419BB8;
   font-weight: 400;
-  margin: 5px 0px 0px 0px;
+  margin: 10px 0px 0px 0px;
   list-style-position: inside;
 }
 

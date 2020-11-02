@@ -5,6 +5,8 @@
     <title>Purdie Resume</title>
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Icon link -->
+    <script src="https://kit.fontawesome.com/2ce7dad615.js" crossorigin="anonymous"></script>
     <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
@@ -13,8 +15,8 @@
   <!--I built this myself!-->
 
     <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Michael Purdie</a>
+    <nav class="navbar navbar-expand-lg navbar-dark">
+      <a class="navbar-brand" href="index.html">Michael Purdie</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -22,16 +24,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="index.html#name">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html#name">Contact<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#experience">Experience<span class="sr-only">(current)</span></a>
+            <a class="nav-link active" href="index.html#experience">Experience<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#education">Education<span class="sr-only">(current)</span></a>
+            <a class="nav-link active" href="index.html#education">Education<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="index.html#skills">Skills<span class="sr-only">(current)</span></a>
+            <a class="nav-link active" href="index.html#skills">Skills<span class="sr-only">(current)</span></a>
           </li>
         </ul>
       </div>
@@ -48,16 +50,21 @@
     <!--My headshot-->
     <img id="headshot" src="images/headshot.jpg" alt="my headshot">
 
+    <!--Button-->
+    <a class="btn btn-primary text-center btn-lg" href="mailto: michaelpurdie26gmail.com" role="button">Hire me!</a>
+
+    <!--Icons-->
+    <!--LinkedIn-->
+    <a href="https://www.linkedin.com/in/michael-purdie-806b841b5/" target="_blank"><i id="linkedin" class="fab fa-linkedin-in icon"></i></a>
+    <!--Phone-->
+    <a href="tel:4437694121" target="_blank"><i id="phone" class="fas fa-phone icon"></i></a>
+    <!--Github-->
+    <a href="https://github.com/mpurdie26" target="_blank"><i id="github" class="fab fa-github icon"></i></a>
+    <!--Twitter-->
+    <a href="https://twitter.com/mpurdie26" target="_blank"><i id="twitter" class="fab fa-twitter icon"></i></a>
+
     <!--container for entire body text-->
     <div id="content">
-
-      <!--Contact Details-->
-      <ul class="menu">
-        <li>michaelpurdie26@gmail.com</li>
-        <li><a href="https://www.linkedin.com/in/michael-purdie-806b841b5/" target="_blank">LinkedIn</a></li>
-        <li><a href="https://twitter.com/mpurdie_" target="_blank">Twitter</a></li>
-        <li><a href="https://github.com/mpurdie26" target="_blank">GitHub</a></li>
-      </ul>
 
       <!--Experience-->
       <div id="experiecne" class="sectionheader">Experience</div>
@@ -84,11 +91,25 @@
 
       <!--Education-->
       <div id="education" class="sectionheader">Education</div>
-        <ul id="list">
-          <li>B.A. Candidate, Journalism, University of Maryland, 2022</li>
-          <li>Certificate Candidate, Women’s Studies, University of Maryland, 2022</li>
-          <li>Citation Candidate, Media, Self, and Society College Park Scholars, 2020</li>
-        </ul>
+        <!-- Grid -->
+        <div class="container">
+          <div class="row">
+            <div class="col-md-4">
+              <h4>B.A. Candidate</h4>
+              <p>Journalism, University of Maryland, 2022</p>
+            </div>
+
+            <div class="col-md-4">
+              <h4>Certificate Candidate</h4>
+              <p>Women’s Studies, University of Maryland, 2022</p>
+            </div>
+
+            <div class="col-md-4">
+              <h4>Citation Candidate</h4>
+              <p>Media, Self, and Society College Park Scholars, 2020</p>
+            </div>
+          </div>
+        </div>
 
       <!--Skills-->
       <div id="skills" class="sectionheader">Skills</div>
