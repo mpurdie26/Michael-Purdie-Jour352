@@ -3,11 +3,39 @@
 
   <head>
     <title>Purdie Resume</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <!-- Custom CSS -->
     <link rel="stylesheet" type="text/css" href="style.css">
   </head>
 
   <body>
   <!--I built this myself!-->
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">Michael Purdie</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html#name">Home<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#experience">Experience<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#education">Education<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="index.html#skills">Skills<span class="sr-only">(current)</span></a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
     <!--Masthead-->
     <header>
@@ -32,7 +60,7 @@
       </ul>
 
       <!--Experience-->
-      <div class="sectionheader">Experience</div>
+      <div id="experiecne" class="sectionheader">Experience</div>
         <!--NCC-->
         <div class="jobtitle">National Communications Coordinator</div>
           <div class="organization">UMD Residence Hall Association (RHA)</div>
@@ -55,7 +83,7 @@
               <div class="description">Operated as a liaison between the SAB and MSS students in my class, as well as planned fundraisers to raise money for St. Jude Children’s Research Hospital.</div>
 
       <!--Education-->
-      <div class="sectionheader">Education</div>
+      <div id="education" class="sectionheader">Education</div>
         <ul id="list">
           <li>B.A. Candidate, Journalism, University of Maryland, 2022</li>
           <li>Certificate Candidate, Women’s Studies, University of Maryland, 2022</li>
@@ -63,7 +91,7 @@
         </ul>
 
       <!--Skills-->
-      <div class="sectionheader">Skills</div>
+      <div id="skills" class="sectionheader">Skills</div>
         <ul id="list">
           <li>Proficient in all Adobe CC programs</li>
           <li>Completed GLSEN Leadership Training for diversity and inclusion</li>

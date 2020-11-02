@@ -31,26 +31,28 @@ header {
   margin-bottom: 230px;
 }
 
+/* headshot */
 #headshot {
   border-radius: 50%;
   border: 6px solid;
   border-color: white;
   width: 25%;
-  position: absolute;
-  margin: 0 auto;
-  left: 0;
-  right: 0;
+  position: relative;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   bottom: 200px;
 }
 
 /* body text container to raise elements up */
 #content {
   width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding-bottom: 50px;
-  position: absolute;
-  top: 650px;
+  max-width: 1000px;
+  margin-bottom: -70px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  bottom: 120;
   left: 0;
   right: 0;
 }
@@ -64,6 +66,7 @@ header {
   text-align: center;
   font-weight: 700;
   padding-bottom: 5px;
+  margin-top: 50px;
   margin-left: auto;
   margin-right: auto;
   width: 40%;
@@ -108,7 +111,7 @@ header {
   text-align: center;
   color: #419BB8;
   font-weight: 400;
-  margin: 0px 0px 30px 0px;
+  margin: 0px 0px 40px 0px;
 }
 
 /*education and skills lists */
@@ -118,17 +121,24 @@ header {
   text-align: center;
   color: #419BB8;
   font-weight: 400;
-  margin: 5px 0px 30px 0px;
+  margin: 5px 0px 0px 0px;
   list-style-position: inside;
 }
 
+/* footer */
+footer {
+  position: relative;
+  width: 100%;
+  background-color: #419BB8;
+  margin: 0 auto;
+}
+
+/* footer text */
 #copyright {
   font-family: "Lucida Grande", Arial, sans-serif;
+  text-align: center;
   font-size: 1em;
   color: white;
-  background-color: #419BB8;
   font-weight: 400;
   padding: 30px 0px 30px 10px;
-  width: 100%;
-
 }
