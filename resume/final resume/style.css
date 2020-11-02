@@ -36,10 +36,10 @@ header {
   border: 6px solid;
   border-color: white;
   width: 25%;
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  position: relative;
+  position: absolute;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
   bottom: 200px;
 }
 
@@ -49,8 +49,10 @@ header {
   max-width: 1200px;
   margin: 0 auto;
   padding-bottom: 50px;
-  position: relative;
-  bottom: 150px;
+  position: absolute;
+  top: 650px;
+  left: 0;
+  right: 0;
 }
 
 /* sections */
