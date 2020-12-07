@@ -1,0 +1,73 @@
+/* entire article */
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+/* headline */
+#headline {
+  font-family: Helvetica, sans-serif;
+  font-size: 40px;
+  text-align: center;
+  font-weight: bold;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+/* byline */
+#byline {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  font-style: italic;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+/* subheads */
+.subhead {
+  font-size: 20px;
+  font-family: Helvetica, sans-serif;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* body text */
+p {
+  font-family: Georgia, serif;
+  font-size: 13px;
+  text-align: justify;
+}
+
+/* photos */
+img {
+  margin-top: 10px;
+  width: 900px;
+  margin-bottom: 5px;
+}
+
+/* captions */
+.caption {
+  font-family: Helvetica, sans-serif;
+  font-size: 11px;
+  font-weight: lighter;
+  text-align: justify;
+  margin-bottom: 13px;
+}
+
+/* footer */
+footer {
+  width: 100%;
+  background-color: black;
+  margin: 0 auto;
+}
+
+/* footer text */
+#copyright {
+  font-family: Helvetica, sans-serif;
+  font-weight: lighter;
+  text-align: center;
+  font-size: 13px;
+  color: white;
+  padding: 30px 0px 30px 10px;
+}
