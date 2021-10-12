@@ -102,13 +102,6 @@ header {
   left: 650;
 }
 
-/* twitter icon location */
-#email {
-  position: relative;
-  bottom: 315;
-  left: 700;
-}
-
 /* body text container to raise elements up */
 #content {
   width: 100%;
