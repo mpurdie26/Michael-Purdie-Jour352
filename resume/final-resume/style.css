@@ -57,18 +57,6 @@ header {
   bottom: 200px;
 }
 
-/* button */
-.btn-primary {
-  color: white;
-  background-color: #419BB8;
-  font-family: "Lucida Grande", Arial, sans-serif;
-  border: 0;
-  display: inline-block;
-  position: relative;
-  left: 46%;
-  bottom: 140;
-}
-
 /* icons */
 .icon {
   color: white;
@@ -85,35 +73,36 @@ header {
 #linkedin {
   position: relative;
   bottom: 315;
-  left: 200;
+  left: 340;
 }
 
 /* phone icon location */
 #phone {
   position: relative;
   bottom: 315;
-  left: 250;
+  left: 390;
 }
 
 /* github icon location */
 #github {
   position: relative;
   bottom: 315;
-  left: 650;
+  left: 760;
 }
 
 /* email icon location */
 #email {
   position: relative;
   bottom: 315;
-  left: 700;
+  left: 810;
 }
 
 /* body text container to raise elements up */
 #content {
   width: 100%;
   max-width: 1000px;
-  margin-bottom: -70px;
+  margin-top: -175px;
+  margin-bottom: -50px;
   margin-left: auto;
   margin-right: auto;
   position: relative;
