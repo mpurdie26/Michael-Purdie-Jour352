@@ -80,7 +80,7 @@ header {
 #github {
   position: relative;
   bottom: 315;
-  left: 760;
+  left: 810;
 }
 
 /* phone icon location */
@@ -94,7 +94,7 @@ header {
 #email {
   position: relative;
   bottom: 315;
-  left: 810;
+  left: 760;
 }
 
 /* body text container to raise elements up */
