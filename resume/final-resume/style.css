@@ -76,18 +76,18 @@ header {
   left: 340;
 }
 
-/* phone icon location */
-#phone {
-  position: relative;
-  bottom: 315;
-  left: 390;
-}
-
 /* github icon location */
 #github {
   position: relative;
   bottom: 315;
   left: 760;
+}
+
+/* phone icon location */
+#phone {
+  position: relative;
+  bottom: 315;
+  left: 390;
 }
 
 /* email icon location */
