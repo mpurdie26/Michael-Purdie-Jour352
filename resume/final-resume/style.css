@@ -80,21 +80,21 @@ header {
 #github {
   position: relative;
   bottom: 315;
-  left: 810;
+  left: 390;
 }
 
 /* phone icon location */
 #phone {
   position: relative;
   bottom: 315;
-  left: 390;
+  left: 760;
 }
 
 /* email icon location */
 #email {
   position: relative;
   bottom: 315;
-  left: 760;
+  left: 810;
 }
 
 /* body text container to raise elements up */
