@@ -1,5 +1,4 @@
-/* styles for resume project */
-
+/* styles for resume */
 /* navbar */
 .navbar {
   position: fixed;
@@ -13,9 +12,11 @@
 
 /* masthead elements */
 header {
+  width: 100%;
   background-image: url(images/IMG_2923.jpg);
+  background-repeat: no-repeat;
   background-size: 100%;
-  padding: 1px;
+  padding: 1%;
 }
 
 #name {
@@ -23,12 +24,12 @@ header {
   color: white;
   text-transform: uppercase;
   -webkit-text-stroke: 1px black;
-  font-size: 5.5em;
+  font-size: 550%;
   font-family: Courier, Monaco, monospace;
   font-weight: 700;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 30px;
+  margin-top: 1%;
   width: 55%;
   border-bottom: 6px solid;
 }
@@ -37,11 +38,11 @@ header {
   text-align: center;
   color: white;
   -webkit-text-stroke: 1px black;
-  font-size: 1.3em;
+  font-size: 130%;
   font-family: "Lucida Grande", Arial, sans-serif;
   font-weight: 700;
-  margin-top: 10px;
-  margin-bottom: 230px;
+  margin-top: 1%;
+  margin-bottom: 15%;
 }
 
 /* headshot */
@@ -54,7 +55,7 @@ header {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  bottom: 200px;
+  bottom: 25%;
 }
 
 /* icons */
@@ -62,51 +63,51 @@ header {
   color: white;
   background-color: #E58E9F;
   border-radius: 50%;
-  width: 70px;
-  height: 70px;
-  padding: 17px;
+  width: 5%;
+  height: 9%;
+  padding: 1.2%;
   text-align: center;
-  font-size: 2.2em;
+  font-size: 220%;
 }
 
 /* linkedin icon location */
 #linkedin {
   position: relative;
-  bottom: 315;
-  left: 340;
+  bottom: 40%;
+  left: 23%;
 }
 
 /* github icon location */
 #github {
   position: relative;
-  bottom: 315;
-  left: 390;
+  bottom: 40%;
+  left: 27%;
 }
 
 /* phone icon location */
 #phone {
   position: relative;
-  bottom: 315;
-  left: 760;
+  bottom: 40%;
+  left: 53%;
 }
 
 /* email icon location */
 #email {
   position: relative;
-  bottom: 315;
-  left: 810;
+  bottom: 40%;
+  left: 57%;
 }
 
 /* body text container to raise elements up */
 #content {
   width: 100%;
-  max-width: 1000px;
-  margin-top: -175px;
-  margin-bottom: -50px;
+  max-width: 100%;
+  margin-top: -14%;
+  margin-bottom: -3%;
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  bottom: 120;
+  bottom: 12%;
   left: 0;
   right: 0;
 }
@@ -114,16 +115,15 @@ header {
 /* sections */
 .sectionheader {
   font-family: Courier, Monaco, monospace;
-  font-size: 2.5em;
+  font-size: 250%;
   text-transform: uppercase;
   color: #E58E9F;
   text-align: center;
   font-weight: 600;
-  padding-bottom: 5px;
-  margin-top: 50px;
+  margin-top: 4%;
   margin-left: auto;
   margin-right: auto;
-  width: 40%;
+  width: 30%;
   border-bottom: 3px solid;
 }
 
@@ -133,7 +133,7 @@ header {
   color: #419BB8;
   text-align: center;
   font-weight: 600;
-  font-size: 1.5em;
+  font-size: 150%;
 }
 
 /* organization */
@@ -142,8 +142,8 @@ header {
   color: #419BB8;
   text-align: center;
   font-weight: 400;
-  font-size: 1.25em;
-  margin: 0px 0px 10px 0px;
+  font-size: 125%;
+  margin: 2% 0% 2% 0%;
 }
 
 /* dates active */
@@ -153,37 +153,37 @@ header {
   text-align: center;
   font-weight: 400;
   font-style: italic;
-  font-size: 1em;
-  margin: 0px 0px 10px 0px;
+  font-size: 100%;
+  margin: 0% 0% 2% 0%;
 }
 
 /* explanation of job */
 .description {
   font-family: "Lucida Grande", Arial, sans-serif;
-  font-size: 1em;
+  font-size: 100%;
   text-align: center;
   color: #419BB8;
   font-weight: 400;
-  margin: 0px 0px 40px 0px;
+  margin: 0% 0% 10% 0%;
 }
 
 /* education list */
 .container {
   font-family: "Lucida Grande", Arial, sans-serif;
-  font-size: 1em;
+  font-size: 100%;
   text-align: center;
   color: #419BB8;
-  margin-top: 10px;
+  margin-top: 1%;
 }
 
 /* skills lists */
 #list {
   font-family: "Lucida Grande", Arial, sans-serif;
-  font-size: 1em;
+  font-size: 100%;
   text-align: center;
   color: #419BB8;
   font-weight: 400;
-  margin: 10px 0px 0px 0px;
+  margin: 1% 0% 0% 0%;
   list-style-position: inside;
 }
 
@@ -192,15 +192,15 @@ footer {
   position: relative;
   width: 100%;
   background-color: #419BB8;
-  margin: 0 auto;
+  margin: 0% auto;
 }
 
 /* footer text */
 #copyright {
   font-family: "Lucida Grande", Arial, sans-serif;
   text-align: center;
-  font-size: 1em;
+  font-size: 100%;
   color: white;
   font-weight: 400;
-  padding: 30px 0px 30px 10px;
+  padding: 2% 0% 2% 1%;
 }
