@@ -131,6 +131,12 @@
     margin-top: 1%;
   }
 
+
+  /* hyperlink color */
+  a {
+    color: #419BB8;
+  }
+
   /* skills lists */
   #list {
     font-family: "Lucida Grande", Arial, sans-serif;
@@ -140,6 +146,7 @@
     font-weight: normal;
     margin: 1% 0% 0% 0%;
     list-style-position: inside;
+    padding: 0% 10% 0% 10%;
   }
 
   /* icons */
@@ -192,13 +199,13 @@
   }
 }
 
-@media screen and (max-width: 400px){
+@media screen and (max-width: 414px){
   /* masthead elements */
   header {
     width: 100%;
     background-image: url(images/IMG_2923.jpg);
     background-repeat: no-repeat;
-    background-size: 140%;
+    background-size: 150%;
     margin-left: auto;
     margin-right: auto;
     position: relative;
@@ -239,12 +246,30 @@
     border-radius: 50%;
     border: 2px solid;
     border-color: white;
-    width: 25%;
+    width: 35%;
     position: relative;
     display: block;
     margin-left: auto;
     margin-right: auto;
     bottom: 8%;
+  }
+
+  /* hyperlink color */
+  a {
+    color: #419BB8;
+    font-size: 60%;
+  }
+
+  /* skills lists */
+  #list {
+    font-family: "Lucida Grande", Arial, sans-serif;
+    font-size: 100%;
+    text-align: center;
+    color: #419BB8;
+    font-weight: normal;
+    margin: 1% 0% 0% 0%;
+    padding: 0% 5% 0% 5%;
+    list-style-position: inside;
   }
 
   /* body text container to raise elements up */
@@ -275,6 +300,7 @@
     border-bottom: 2px solid;
   }
 
+
   /* position name */
   .jobtitle {
     font-family: "Lucida Grande", Arial, sans-serif;
@@ -282,6 +308,7 @@
     text-align: center;
     font-weight: bolder;
     font-size: 125%;
+    padding: 0% 5% 0% 5%;
   }
 
   /* organization */
@@ -292,6 +319,7 @@
     font-weight: bold;
     font-size: 100%;
     margin: 2% 0% 2% 0%;
+    padding: 0% 5% 0% 5%;
   }
 
   /* dates active */
@@ -303,6 +331,7 @@
     font-style: italic;
     font-size: 75%;
     margin: 0% 0% 2% 0%;
+    padding: 0% 5% 0% 5%;
   }
 
   /* explanation of job */
@@ -339,30 +368,18 @@
     margin-top: 1%;
   }
 
-  /* skills lists */
-  #list {
-    font-family: "Lucida Grande", Arial, sans-serif;
-    font-size: 75%;
-    text-align: center;
-    color: #419BB8;
-    font-weight: normal;
-    margin: 3% 0% 0% 0%;
-    padding-right: 12%;
-    list-style-position: inside;
-  }
-
   /* icons */
   .icon {
     color: white;
     background-color: #E58E9F;
     border-radius: 50%;
-    width: 7%;
-    height: 3.5%;
-    padding-top: 2%;
+    width: 10%;
+    height: 4.5%;
+    padding-top: 2.3%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
-    font-size: 90%;
+    font-size: 200%;
   }
 
   /* linkedin icon location */
@@ -370,8 +387,8 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    bottom: 12%;
-    left: 15%;
+    bottom: 14%;
+    left: 6%;
   }
 
   /* github icon location */
@@ -379,8 +396,8 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    bottom: 12%;
-    left: 20%;
+    bottom: 14%;
+    left: 9%;
   }
 
   /* phone icon location */
@@ -388,7 +405,7 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    bottom: 12%;
+    bottom: 14%;
     left: 47.5%;
   }
 
@@ -397,8 +414,8 @@
     margin-left: auto;
     margin-right: auto;
     position: relative;
-    bottom: 12%;
-    left: 52.5%;
+    bottom: 14%;
+    left: 50.5%;
   }
 }
 
