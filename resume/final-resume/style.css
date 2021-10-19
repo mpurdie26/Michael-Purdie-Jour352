@@ -81,6 +81,11 @@
     width: 30%;
     border-bottom: 3px solid;
   }
+  
+  /* hyperlink color */
+  a {
+    color: #419BB8;
+  }
 
   /* position name */
   .jobtitle {
@@ -129,12 +134,6 @@
     text-align: center;
     color: #419BB8;
     margin-top: 1%;
-  }
-
-
-  /* hyperlink color */
-  a {
-    color: #419BB8;
   }
 
   /* skills lists */
