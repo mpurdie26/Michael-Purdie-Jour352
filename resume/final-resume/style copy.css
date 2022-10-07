@@ -81,20 +81,10 @@
     width: 30%;
     border-bottom: 3px solid;
   }
-
+  
   /* hyperlink color */
   a {
     color: #419BB8;
-  }
-
-  /* about me section */
-  .aboutme {
-    font-family: "Lucida Grande", Arial, sans-serif;
-    font-size: 100%;
-    text-align: center;
-    color: #419BB8;
-    font-weight: normal;
-    margin: 0% 0% 10% 0%;
   }
 
   /* position name */
