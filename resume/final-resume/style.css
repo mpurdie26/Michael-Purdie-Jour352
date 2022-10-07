@@ -90,11 +90,11 @@
   /* about me section */
   .aboutme {
     font-family: "Lucida Grande", Arial, sans-serif;
-    font-size: 100%;
+    font-size: 125%;
     text-align: center;
     color: #419BB8;
     font-weight: normal;
-    margin: 0% 0% 10% 0%;
+    margin: 10% 0% 0% 10%;
   }
 
   /* position name */
