@@ -452,11 +452,11 @@ body {
 
 /* column padding */
 .col-sm {
-  padding: 2% 2% 2% 0%;
+  padding: 2% 2% 0% 2%;
 }
 
 .col-md-4 {
-  padding: 2% 2% 2% 0%;
+  padding: 2% 2% 0% 2%;
 }
 
 /* footer */
