@@ -96,6 +96,7 @@
     font-weight: normal;
     margin-left: auto;
     margin-right: auto;
+    padding: 0% 10% 0% 10%;
   }
 
   /* position name */
@@ -144,6 +145,7 @@
     font-size: 100%;
     text-align: center;
     color: #419BB8;
+    margin-top: 1%;
   }
 
   /* skills lists */
